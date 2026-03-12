@@ -1,6 +1,5 @@
 import { useState, useCallback, useRef } from 'react'
 import { Client, IMessage, StompSubscription } from '@stomp/stompjs'
-import SockJS from 'sockjs-client'
 
 export type ConnectionStatus = 'connected' | 'disconnected' | 'connecting'
 export type LogType = 'info' | 'success' | 'error' | 'message'
